@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./lodash.js"></script>
+  <title>节流</title>
+</head>
+
+<body>
+  <div>
+    <h1>
+      我是计算器 <span>0</span>
+    </h1>
+    <button>点我加1</button>
+  </div>
+
+</body>
+
+</html>
+<script>
+  // 节流(单位时间只触发一次)：在规定的 单位时间 内只能运行执行一次回调函数，主动地把频发触发变为少量触发。（类似与在单位时间内上了锁）
+
+  let span = document.querySelector('span');
+  let button = document.querySelector('button');
+  let count = 0;
+
+  // button.onclick = function () {
+  //   count++;
+  //   span.innerHTML = count
+  // }
+
+  // 模拟节流：在1s以内只能加1.
+  // lodash.js中封装了节流函数：_.throttle(function(),时间,option)
+  button.onclick = _.throttle(function () {
+    // 节流：目前的回调函数是1s执行一次。
+    count++;
+    span.innerHTML = count
+  }, 1000)
+
+
+  // 防抖：用户操作很频繁，但是只是最后执行一次。
+  // 节流：用户操作很频繁，但是只是执行一次。
+
+</script>

@@ -1,4 +1,5 @@
 {
+  //  @ 代表 src文件。
   "compilerOptions": {
     "target": "es5",
     "module": "esnext",
