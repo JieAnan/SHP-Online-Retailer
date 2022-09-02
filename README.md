@@ -26,6 +26,13 @@
 
 ## 2.6 订单支付功能。
 
-三、页面缩略图
-
+# 三、页面缩略图
+![1](https://github.com/JieAnan/SHP-Online-Retailer/blob/master/public/images/page1.png)
+![1](https://github.com/JieAnan/SHP-Online-Retailer/blob/master/public/images/page2.png)
+![1](https://github.com/JieAnan/SHP-Online-Retailer/blob/master/public/images/page3.png)
+![1](https://github.com/JieAnan/SHP-Online-Retailer/blob/master/public/images/page4.png)
+![1](https://github.com/JieAnan/SHP-Online-Retailer/blob/master/public/images/page5.png)
+![1](https://github.com/JieAnan/SHP-Online-Retailer/blob/master/public/images/page6.png)
+![1](https://github.com/JieAnan/SHP-Online-Retailer/blob/master/public/images/page7.png)
+![1](https://github.com/JieAnan/SHP-Online-Retailer/blob/master/public/images/page8.png)
 
